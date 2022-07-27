@@ -208,4 +208,12 @@ class ReplicateAdapter implements FilesystemAdapter
 
         return $this->source->readStream($path);
     }
+
+	/**
+	 * {@inheritDoc}
+	 */
+	public function directoryExists(string $path): bool
+	{
+		return $this->source->directoryExists($path);
+	}
 }

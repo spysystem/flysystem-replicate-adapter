@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "php": "^7.2 || ^8.0",
-        "league/flysystem": "~2.0"
+        "php": "^8.0.2",
+        "league/flysystem": "~3.2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -23,10 +23,5 @@
     },
     "config": {
         "bin-dir": "bin"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0-dev"
-        }
     }
 }
